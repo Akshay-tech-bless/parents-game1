@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Akshaya's Love Adventure ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <div class="game-container">
+
+        <div class="progress-container">
+
+           <div id="progress-bar"></div>
+
+      </div>
+        <!-- Welcome Screen -->
+        <div id="welcome" class="screen active">
+
+            <h1>❤️ Akshaya's Love Adventure ❤️</h1>
+
+            <h2>A Special Gift For</h2>
+
+            <h3>
+                👨 Sarvesh Kumar
+                <br>
+                ❤️
+                <br>
+                👩 Gnanalatha
+            </h3>
+
+            <p>
+                A small game created with a big heart by Akshaya.
+            </p>
+
+            <button onclick="startGame()">
+                Start Journey ✨
+            </button>
+
+        </div>
+
+
+        <!-- Heart Collection Level -->
+
+        <div id="level1" class="screen">
+
+            <h1>Level 1 🌸</h1>
+
+            <h2>Collect Love Hearts ❤️</h2>
+
+            <p>
+                Click 10 hearts to unlock the next surprise!
+            </p>
+
+            <h2>
+                Hearts:
+                <span id="score">0</span>/10
+            </h2>
+
+            <div id="heart-area"></div>
+
+        </div>
+
+
+        <!-- Love Message Level -->
+
+        <div id="level2" class="screen">
+
+            <h1>Level 2 🌷</h1>
+
+            <h2>Garden of Love</h2>
+
+            <p>
+                Click the flowers to discover messages.
+            </p>
+
+            <div class="flowers">
+
+                <button onclick="showMessage(1)">
+                    🌹
+                </button>
+
+                <button onclick="showMessage(2)">
+                    🌸
+                </button>
+
+                <button onclick="showMessage(3)">
+                    🌻
+                </button>
+
+            </div>
+
+            <p id="love-message"></p>
+
+          <button onclick="openTreasure()">
+                 Open Treasure 🎁
+          </button>  
+
+        </div>
+
+
+        <!-- Final Level -->
+
+        <div id="final" class="screen">
+
+            <h1>🎉 Final Surprise 🎉</h1>
+
+            <h2>
+                Sarvesh Kumar ❤️ Gnanalatha
+            </h2>
+
+            <p class="final-text">
+
+                Thank you for giving me the most beautiful life.
+
+                <br><br>
+
+                Your love is my greatest treasure.
+
+                <br><br>
+
+                I will always love you and make you proud.
+
+                <br><br>
+
+                Forever your child,
+
+                <br>
+
+                ❤️ Akshaya ❤️
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+<div class="guide">
+    🧸
+    <span id="guide-text">
+        Hi Akshaya! Let's create a surprise ❤️
+    </span>
+</div>
+
+</html>s
+
